@@ -3,11 +3,11 @@ import './App.css';
 
 const App = () => {
   const questions = [
-    { question: 'When was Nishan born?', answer: '1993' },
-    { question: 'When was Uttam born?', answer: '1991' },
-    { question: 'When was Sanjaya born?', answer: '1992' },
-    { question: 'When was Ananta born?', answer: '1992' },
-    { question: 'When was Kushal born?', answer: '1992' },
+    { question: 'What gets wetter the more it dries?', answer: 'towel' },
+    { question: 'What has a bottom at the top?', answer: 'leg' },
+    { question: 'What has a head, a tail, but no body?', answer: 'coin' },
+    { question: 'What has to be broken before you can use it?', answer: 'egg' },
+    { question: 'If a chicken and a half lays an egg and a half in a day and a half, how many eggs would 3 chickens lay in 3 days?', answer: '6' },
   ];
 
   const images = [
@@ -33,7 +33,10 @@ const App = () => {
   const [isCorrectMessage, setIsCorrectMessage] = useState(false);
 
   const handleAnswerSubmission = () => {
-    if (userAnswer === questions[currentQuestionIndex].answer) {
+    if (
+      userAnswer.trim().toLowerCase() === 
+      questions[currentQuestionIndex].answer.trim().toLowerCase()
+    ) {
       setMessage(funnyMessages[currentQuestionIndex]);
       setIsCorrectMessage(true);
       setCurrentImage(images[currentQuestionIndex]); // Show the most recent image
