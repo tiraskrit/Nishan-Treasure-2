@@ -3,7 +3,7 @@ import './App.css';
 
 const App = () => {
   const questions = [
-    { question: 'What gets wetter the more it dries?', answer: 'towel' },
+    { question: 'A frog is at the bottom of a 30-foot well. Each day it climbs up 3 feet but slips back 2 feet at night. How many days will it take for the frog to escape the well?', answer: '28' },
     { question: 'What has a bottom at the top?', answer: 'leg' },
     { question: 'What has a head, a tail, but no body?', answer: 'coin' },
     { question: 'What has to be broken before you can use it?', answer: 'egg' },
@@ -63,8 +63,9 @@ const App = () => {
   return (
     <div className="app">
       <header className="header">
-        <h1>Treasure Hunt: Bachelor Edition</h1>
+        <h1>Treasure Hunt: Nishan's Bachelor Party</h1>
         <p>Answer the questions to reveal the hints for the ultimate party!</p>
+        <p className='hint'>With each hint you will get closer to your next location!</p>
       </header>
       <div className="content">
         {currentQuestionIndex < questions.length && (
