@@ -11,11 +11,11 @@ const App = () => {
   ];
 
   const images = [
-    'https://lp-cms-production.imgix.net/2021-08/shutterstockRF_345802901.jpg?w=1920&h=640&fit=crop&crop=faces%2Cedges&auto=format&q=75',
+    'https://raw.githubusercontent.com/tiraskrit/Nishan-Treasure-2/refs/heads/main/wall_map.png',
     'https://www.anekdotique.com/wp-content/uploads/2014/08/East_Side_Gallery_Sunset.jpg',
-    'https://cdn.wallstoxx.com/media/15/cf/b7/1664442978/731823_thumb1.png',
-    'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/81/58/8d/caption.jpg?w=1200&h=-1&s=1',
-    'https://berlinwallmap.info/wp-content/uploads/2015/11/berlin-wall-800x494.jpg',
+    'https://raw.githubusercontent.com/tiraskrit/Nishan-Treasure-2/refs/heads/main/wall.jfif',
+    'https://raw.githubusercontent.com/tiraskrit/Nishan-Treasure-2/refs/heads/main/wall_pole.jfif',
+    'https://raw.githubusercontent.com/tiraskrit/Nishan-Treasure-2/refs/heads/main/wall_back.jfif',
   ];
 
   const funnyMessages = [
