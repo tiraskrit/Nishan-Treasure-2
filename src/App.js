@@ -14,8 +14,8 @@ const App = () => {
     'https://raw.githubusercontent.com/tiraskrit/Nishan-Treasure-2/refs/heads/main/wall_map.png',
     'https://www.anekdotique.com/wp-content/uploads/2014/08/East_Side_Gallery_Sunset.jpg',
     'https://raw.githubusercontent.com/tiraskrit/Nishan-Treasure-2/refs/heads/main/wall.jfif',
-    'https://raw.githubusercontent.com/tiraskrit/Nishan-Treasure-2/refs/heads/main/wall_pole.jfif',
     'https://raw.githubusercontent.com/tiraskrit/Nishan-Treasure-2/refs/heads/main/wall_back.jfif',
+    'https://raw.githubusercontent.com/tiraskrit/Nishan-Treasure-2/refs/heads/main/wall_pole.jfif',
   ];
 
   const funnyMessages = [
