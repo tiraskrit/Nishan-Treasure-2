@@ -65,7 +65,7 @@ const App = () => {
       <header className="header">
         <h1>Treasure Hunt: Nishan's Bachelor Party</h1>
         <p>Answer the questions to reveal the hints for the ultimate party!</p>
-        <p style="color: red;" >With each hint you will get closer to your next location!</p>
+        <p style={{ color: 'red' }}>With each hint you will get closer to your next location!</p>
       </header>
       <div className="content">
         {currentQuestionIndex < questions.length && (
